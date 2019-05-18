@@ -7,17 +7,14 @@ public class HandleUIPoint : MonoBehaviour
 {
     private Vector3 screenPos;
     public GameObject panel;
+	private float distanceToCam = 0.7f;
 
     [SerializeField] private BeerInfo pir;
 	[SerializeField] private Text NameText;
-
-	// Update is called once per frame
-	void Update()
-    {
-        panel.transform.rotation = Camera.main.transform.rotation;
-    }
+	[SerializeField] private Text StyleText;
 
 	private void Start () {
-		NameText.text = pir.title;
+		NameText.text = "Name: " + pir.title;
+		StyleText.text = "Style: " + pir.style;
 	}
 }

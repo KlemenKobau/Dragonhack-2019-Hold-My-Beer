@@ -432,5 +432,22 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1835211707}
+    - target: {fileID: 7452737847401200762, guid: c6caab4c1e11d99259d3a73833abbf9f,
+        type: 3}
+      propertyPath: piri.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452737847401200762, guid: c6caab4c1e11d99259d3a73833abbf9f,
+        type: 3}
+      propertyPath: piri.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d372aacea6c83d17780d62c2662bd22f,
+        type: 2}
+    - target: {fileID: 7452737847401200762, guid: c6caab4c1e11d99259d3a73833abbf9f,
+        type: 3}
+      propertyPath: piri.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f4f26adc25079864aaa05f85cf243fca,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6caab4c1e11d99259d3a73833abbf9f, type: 3}

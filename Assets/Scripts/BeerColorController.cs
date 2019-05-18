@@ -53,6 +53,10 @@ public class BeerColorController : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+		
+    }
+
+	public void ChangeMaterial () {
 		Material mat = renderer.material;
 		string srm = beerInfo.color;
 
@@ -64,14 +68,8 @@ public class BeerColorController : MonoBehaviour
 		srmToColor.TryGetValue(final_value, out hex);
 		hex = "#" + hex;
 		Color newCol;
-		if (ColorUtility.TryParseHtmlString(hex, out newCol))
+		ColorUtility.TryParseHtmlString(hex, out newCol);
 
 		mat.SetColor("_Tint", newCol);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	}
 }

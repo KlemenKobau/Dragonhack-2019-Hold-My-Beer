@@ -5,18 +5,19 @@ using UnityEngine;
 public class SelectBeer : MonoBehaviour
 {
 
-	[SerializeField] List<GameObject> beerUnderUniversal;
+	[SerializeField] List<BeerColorController> beerUnderUniversal;
 
 	private int ind = 0;
 	// Start is called before the first frame update
 
 
 	private void Start () {
-		foreach (GameObject beer in beerUnderUniversal) {
-			beer.SetActive(false);
+		foreach (BeerColorController beer in beerUnderUniversal) {
+			beer.gameObject.SetActive(false);
 		}
 
-		beerUnderUniversal[ind].SetActive(true);
+		beerUnderUniversal[ind].ChangeMaterial();
+		beerUnderUniversal[ind].gameObject.SetActive(true);
 
 
 	}
@@ -34,24 +35,25 @@ public class SelectBeer : MonoBehaviour
 	}
 
 	public void SwitchToLeftBeer () {
-		beerUnderUniversal[ind].SetActive(false);
+		beerUnderUniversal[ind].gameObject.SetActive(false);
 		ind--;
 		if (ind < 0) {
 			ind = beerUnderUniversal.Count - 1;
 		}
 
-		beerUnderUniversal[ind].SetActive(true);
+		beerUnderUniversal[ind].ChangeMaterial();
+		beerUnderUniversal[ind].gameObject.SetActive(true);
 
 	}
 
 	public void SwitchToRightBeer () {
 
-		beerUnderUniversal[ind].SetActive(false);
+		beerUnderUniversal[ind].gameObject.SetActive(false);
 		ind++;
 		if (ind >= beerUnderUniversal.Count) {
 			ind = 0;
 		}
-
-		beerUnderUniversal[ind].SetActive(true);
+		beerUnderUniversal[ind].ChangeMaterial();
+		beerUnderUniversal[ind].gameObject.SetActive(true);
 	}
 }

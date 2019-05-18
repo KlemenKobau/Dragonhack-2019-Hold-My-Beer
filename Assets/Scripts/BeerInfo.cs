@@ -8,7 +8,7 @@ public class BeerInfo : ScriptableObject
 {
     public string title;
     public string style;
-//    public float alcohol;
-//    public string color;
-//    public float IBU;
+    public float alcohol;
+    public string color;
+    public float IBU;
 }

@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9db735e1894079894f18e333139365, type: 3}
   m_Name: Beer1
   m_EditorClassIdentifier: 
-  title: temp beer name 6
-  style: bor3
+  title: Sierra Nevada Pale Ale Clone
+  style: American Pale Ale
+  alcohol: 5.58
+  color: 8
+  IBU: 40.12

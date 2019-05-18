@@ -11,7 +11,7 @@ public class LoadBeerObjcts : MonoBehaviour
     [UnityEditor.MenuItem("Beer/Load beer items")]
     public static void ImportBeerTypes()
     {
-        for (int i = 0; i < 2; i++)
+        for (int i = 1; i < 20; i++)
         {
             string assetPath = "Assets/Json/Parsed/Beer" + i + ".asset";
             string jsonPath = "Assets/Json/beer" + i + ".json";

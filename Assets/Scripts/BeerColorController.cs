@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BeerColorController : MonoBehaviour
 {
-	[SerializeField] BeerInfo beerInfo;
+	public BeerInfo beerInfo;
 	[SerializeField] Renderer renderer;
 
 	Dictionary<int, string> srmToColor = new Dictionary<int, string>() 

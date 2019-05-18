@@ -9,13 +9,13 @@ public class HandleUIPoint : MonoBehaviour
     public GameObject panel;
 	private float distanceToCam = 0.7f;
 
-    [SerializeField] private BeerInfo pir;
+    public BeerInfo pir;
 	[SerializeField] private Text NameText;
 	[SerializeField] private Text StyleText;
 	[SerializeField] private Text AlcoholText;
 	[SerializeField] private Text IBUText;
 
-	private void Start () {
+	public void ChangeInfo () {
 		NameText.text = pir.title;
 		StyleText.text = pir.style;
 		AlcoholText.text = pir.alcohol + "%";

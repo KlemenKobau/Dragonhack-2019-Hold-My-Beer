@@ -6,6 +6,7 @@ public class SelectBeer : MonoBehaviour
 {
 
 	[SerializeField] List<BeerColorController> beerUnderUniversal;
+	[SerializeField] HandleUIPoint handleUIPoint;
 
 	private int ind = 0;
 	// Start is called before the first frame update
@@ -16,8 +17,7 @@ public class SelectBeer : MonoBehaviour
 			beer.gameObject.SetActive(false);
 		}
 
-		beerUnderUniversal[ind].ChangeMaterial();
-		beerUnderUniversal[ind].gameObject.SetActive(true);
+		SetupBeer(beerUnderUniversal[ind]);
 
 
 	}
@@ -41,8 +41,7 @@ public class SelectBeer : MonoBehaviour
 			ind = beerUnderUniversal.Count - 1;
 		}
 
-		beerUnderUniversal[ind].ChangeMaterial();
-		beerUnderUniversal[ind].gameObject.SetActive(true);
+		SetupBeer(beerUnderUniversal[ind]);
 
 	}
 
@@ -53,7 +52,14 @@ public class SelectBeer : MonoBehaviour
 		if (ind >= beerUnderUniversal.Count) {
 			ind = 0;
 		}
+
+		SetupBeer(beerUnderUniversal[ind]);
+	}
+
+	void SetupBeer (BeerColorController beerColorController) {
 		beerUnderUniversal[ind].ChangeMaterial();
+		handleUIPoint.pir = beerColorController.beerInfo;
+		handleUIPoint.ChangeInfo();
 		beerUnderUniversal[ind].gameObject.SetActive(true);
 	}
 }

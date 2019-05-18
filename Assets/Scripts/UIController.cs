@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class UIController : MonoBehaviour
 {   
 
     public Button leftButton, rightButton;
+
+    [SerializeField] SelectBeer pir;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +22,10 @@ public class UIController : MonoBehaviour
     }
 
     public void TaskOnClickLeft() {
-        Debug.Log("levo");
+        pir.SwitchToLeftBeer();
     }
 
     public void TaskOnClickRight() {
-        Debug.Log("desno");
+        pir.SwitchToRightBeer();
     }
 }

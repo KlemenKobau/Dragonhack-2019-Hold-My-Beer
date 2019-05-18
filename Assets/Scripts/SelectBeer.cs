@@ -24,16 +24,16 @@ public class SelectBeer : MonoBehaviour
 	private void Update () {
 #if UNITY_EDITOR
 		if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-			SwichToLeftBeer();
+			SwitchToLeftBeer();
 		}
 		if (Input.GetKeyDown(KeyCode.RightArrow)) {
-			SwichToRightBeer();
+			SwitchToRightBeer();
 		}
 
 #endif
 	}
 
-	public void SwichToLeftBeer () {
+	public void SwitchToLeftBeer () {
 		beerUnderUniversal[ind].SetActive(false);
 		ind--;
 		if (ind < 0) {
@@ -44,7 +44,7 @@ public class SelectBeer : MonoBehaviour
 
 	}
 
-	public void SwichToRightBeer () {
+	public void SwitchToRightBeer () {
 
 		beerUnderUniversal[ind].SetActive(false);
 		ind++;

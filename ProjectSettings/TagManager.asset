@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Beer UI layer
+    uniqueID: 1466913811
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

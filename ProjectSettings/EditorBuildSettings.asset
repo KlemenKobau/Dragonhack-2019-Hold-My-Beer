@@ -8,12 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/VuforiaTest.unity
     guid: 6d94c9b9fe27080408cfbc351418ade6
-  - enabled: 0
-    path: Assets/Images/MainScene.unity
-    guid: 7e7546bd3d12a1467b5003a7ca0917bf
-  - enabled: 0
-    path: Assets/Scenes/SwipeTest2.unity
-    guid: 770b194f9cec164408052ab39d45d069
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d8a6501dba0ac524882c9985ebc2a1d1
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: d8a6501dba0ac524882c9985ebc2a1d1

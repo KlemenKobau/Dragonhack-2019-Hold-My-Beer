@@ -11,8 +11,6 @@ public class HandleUIPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-//        screenPos = Camera.main.WorldToScreenPoint(transform.position);
         panel.transform.rotation = Camera.main.transform.rotation;
-
     }
 }

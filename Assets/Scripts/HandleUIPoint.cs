@@ -12,9 +12,13 @@ public class HandleUIPoint : MonoBehaviour
     [SerializeField] private BeerInfo pir;
 	[SerializeField] private Text NameText;
 	[SerializeField] private Text StyleText;
+	[SerializeField] private Text AlcoholText;
+	[SerializeField] private Text IBUText;
 
 	private void Start () {
-		NameText.text = "Name: " + pir.title;
-		StyleText.text = "Style: " + pir.style;
+		NameText.text = pir.title;
+		StyleText.text = pir.style;
+		AlcoholText.text = pir.alcohol + "%";
+		IBUText.text = pir.IBU.ToString();
 	}
 }

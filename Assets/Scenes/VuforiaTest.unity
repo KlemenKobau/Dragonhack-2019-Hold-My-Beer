@@ -211,7 +211,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 1f8838ed6eec83048ac54856eb1a2a9c,
+      objectReference: {fileID: 11400000, guid: d0fab5af4baeb1d41b24fd953e6d3bad,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -483,7 +483,8 @@ PrefabInstance:
         type: 3}
       propertyPath: pir
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: f4f26adc25079864aaa05f85cf243fca,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6caab4c1e11d99259d3a73833abbf9f, type: 3}
 --- !u!4 &658814946 stripped
@@ -596,6 +597,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ebc18873d0eedef4ab4c2716ddbd51d9, type: 2}
+    - target: {fileID: 635547911207379271, guid: af6bb6fc7d8f3874f9829277cdc5b413,
+        type: 3}
+      propertyPath: beerInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 931d8206adc6a2947a21bb67ff5d089f,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
 --- !u!4 &1050151419 stripped
@@ -1757,7 +1764,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 1f8838ed6eec83048ac54856eb1a2a9c,
+      objectReference: {fileID: 11400000, guid: d0fab5af4baeb1d41b24fd953e6d3bad,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}

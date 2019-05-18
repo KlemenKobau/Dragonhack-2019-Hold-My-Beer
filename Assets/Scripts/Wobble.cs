@@ -53,7 +53,7 @@ public class Wobble : MonoBehaviour {
 		lastRot = transform.rotation.eulerAngles;
 
 
-		transform.position = new Vector3(curve.Evaluate(time), 0, 0);
+		//transform.position = new Vector3(curve.Evaluate(time), 0, 0);
 
 	}
 

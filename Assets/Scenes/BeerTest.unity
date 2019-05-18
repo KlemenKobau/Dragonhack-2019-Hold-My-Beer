@@ -155,6 +155,39 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.005706787
+      value: 0
+      inSlope: -0.18841568
+      outSlope: -0.18841568
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5316424
+    - serializedVersion: 3
+      time: 0.5087575
+      value: 0.05492592
+      inSlope: -0.17291483
+      outSlope: -0.17291483
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13415259
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.05645368
+      outSlope: -0.05645368
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6149326
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
 --- !u!65 &439452763
 BoxCollider:
   m_ObjectHideFlags: 0

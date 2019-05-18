@@ -98,6 +98,7 @@
             UNITY_APPLY_FOG(i.fogCoord, col);
 
             // rim light
+
             float dotProduct = 1 - pow(dot(i.normal, i.viewDir), _RimPower);
             float4 RimResult = smoothstep(0.5, 1.0, dotProduct);
             RimResult *= _RimColor;

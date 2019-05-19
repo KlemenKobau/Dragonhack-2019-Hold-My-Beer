@@ -9,4 +9,11 @@ public class SceneManagement : MonoBehaviour
 	{
 		SceneManager.LoadScene("VuforiaTest arrows");
 	}
+
+	public void GoToPicutreMode()
+	{
+		SceneManager.LoadScene("VuforiaPicture");
+	}
+
+	
 }

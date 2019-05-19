@@ -51,10 +51,11 @@ public class BeerColorController : MonoBehaviour
 
 
 	// Start is called before the first frame update
-	void Start()
+	void OnEnable()
     {
-		
+        ChangeMaterial();
     }
+
 
 	public void ChangeMaterial () {
 		Material mat = renderer.material;

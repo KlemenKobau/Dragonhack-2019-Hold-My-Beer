@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 594640672994677990}
   - component: {fileID: 1366887924082534752}
   - component: {fileID: 7676575686238237094}
-  - component: {fileID: 635547911207379267}
   - component: {fileID: 635547911207379271}
   m_Layer: 0
   m_Name: beer_glass_tall_light
@@ -59,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebc18873d0eedef4ab4c2716ddbd51d9, type: 2}
+  - {fileID: 2100000, guid: 9909a8b47f3046b41a90488ace559c40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,54 +78,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &635547911207379267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530017268896344654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35325184dd81283498666a47044b8217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxWobble: 0.03
-  WobbleSpeed: 1
-  Recovery: 1
-  curve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: -0.005706787
-      value: 0
-      inSlope: -0.18841568
-      outSlope: -0.18841568
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.5316424
-    - serializedVersion: 3
-      time: 0.5087575
-      value: 0.05492592
-      inSlope: -0.17291483
-      outSlope: -0.17291483
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.13415259
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -0.05645368
-      outSlope: -0.05645368
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.6149326
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 1
-    m_RotationOrder: 4
 --- !u!114 &635547911207379271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17d4638599fee034cabff65000bccc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beerInfo: {fileID: 11400000, guid: f4f26adc25079864aaa05f85cf243fca, type: 2}
+  beerInfo: {fileID: 11400000, guid: 1f8838ed6eec83048ac54856eb1a2a9c, type: 2}
   renderer: {fileID: 7676575686238237094}
 --- !u!1 &2979542858224791333
 GameObject:
@@ -166,7 +117,7 @@ Transform:
   m_GameObject: {fileID: 2979542858224791333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.31796882, y: 0.31796882, z: 0.31796882}
   m_Children:
   - {fileID: 594640672994677990}
   m_Father: {fileID: 0}

@@ -187,31 +187,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2234400770543623478, guid: af6bb6fc7d8f3874f9829277cdc5b413,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.31796882
-      objectReference: {fileID: 0}
-    - target: {fileID: 2234400770543623478, guid: af6bb6fc7d8f3874f9829277cdc5b413,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.31796882
-      objectReference: {fileID: 0}
-    - target: {fileID: 2234400770543623478, guid: af6bb6fc7d8f3874f9829277cdc5b413,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.31796882
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676575686238237094, guid: af6bb6fc7d8f3874f9829277cdc5b413,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9909a8b47f3046b41a90488ace559c40, type: 2}
     - target: {fileID: 635547911207379271, guid: af6bb6fc7d8f3874f9829277cdc5b413,
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 1f8838ed6eec83048ac54856eb1a2a9c,
+      objectReference: {fileID: 11400000, guid: f4f26adc25079864aaa05f85cf243fca,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -221,67 +201,13 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 236502862}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &236502864 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1530017268896344654, guid: af6bb6fc7d8f3874f9829277cdc5b413,
-    type: 3}
-  m_PrefabInstance: {fileID: 236502862}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &236502866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236502864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35325184dd81283498666a47044b8217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxWobble: 0.03
-  WobbleSpeed: 1
-  Recovery: 1
-  curve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: -0.005706787
-      value: 0
-      inSlope: -0.18841568
-      outSlope: -0.18841568
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.5316424
-    - serializedVersion: 3
-      time: 0.5087575
-      value: 0.05492592
-      inSlope: -0.17291483
-      outSlope: -0.17291483
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.13415259
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -0.05645368
-      outSlope: -0.05645368
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.6149326
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 1
-    m_RotationOrder: 4
 --- !u!114 &236502871 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 635547911207379271, guid: af6bb6fc7d8f3874f9829277cdc5b413,
     type: 3}
   m_PrefabInstance: {fileID: 236502862}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236502864}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17d4638599fee034cabff65000bccc1c, type: 3}
@@ -500,7 +426,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 694e952fc882e534488232c7e8ffa7d5,
+      objectReference: {fileID: 11400000, guid: a0ae54541af9bf1448719c7b3530ecee,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -1163,7 +1089,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 1f8838ed6eec83048ac54856eb1a2a9c,
+      objectReference: {fileID: 11400000, guid: bc7944218e6485a4e844956f0c25dbd0,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -1770,6 +1696,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1288934684}
+    - target: {fileID: 7452737846312294152, guid: c6caab4c1e11d99259d3a73833abbf9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6caab4c1e11d99259d3a73833abbf9f, type: 3}
 --- !u!4 &1779151626 stripped

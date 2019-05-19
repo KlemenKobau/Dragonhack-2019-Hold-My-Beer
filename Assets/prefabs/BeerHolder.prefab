@@ -625,7 +625,7 @@ Transform:
   m_GameObject: {fileID: 7452737845825056952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.589844, y: 1.589844, z: 1.589844}
   m_Children:
   - {fileID: 7452737847401200761}
   - {fileID: 7452737846312294152}
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.83137256}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -857,8 +857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 7452737846312294151}
-  pir: {fileID: 11400000, guid: d372aacea6c83d17780d62c2662bd22f, type: 2}
-  NameText: {fileID: 6594726237880744803}
+  pir: {fileID: 0}
+  NameText: {fileID: 2056815986960073179}
   StyleText: {fileID: 8215197387282076891}
   AlcoholText: {fileID: 3646045967033591040}
   IBUText: {fileID: 8400786983472166530}

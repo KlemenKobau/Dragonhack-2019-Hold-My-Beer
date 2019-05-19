@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class SelectBeer : MonoBehaviour
 {
-
-	[SerializeField] List<BeerColorController> beerUnderUniversal;
+	[SerializeField] GameObject myPrefab;
+	private List<BeerColorController> beerUnderUniversal;
 	[SerializeField] HandleUIPoint handleUIPoint;
 
 	private int ind = 0;
@@ -13,6 +14,17 @@ public class SelectBeer : MonoBehaviour
 
 
 	private void Start () {
+
+		for (int i = 1; i <= CrossSceneArgs.allBeers; i++)
+		{
+			string assetPath = "Assets/Json/Parsed/Beer" + i + ".asset";
+			BeerInfo beerInfo = AssetDatabase.LoadAssetAtPath<BeerInfo>(assetPath);
+
+			GameObject newPrefab = Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+			newPrefab.GetComponent<BeerColorController>().beerInfo = beerInfo;
+			beerUnderUniversal.Add(newPrefab.GetComponent<BeerColorController>());
+		}
+
 		foreach (BeerColorController beer in beerUnderUniversal) {
 			beer.gameObject.SetActive(false);
 		}

@@ -7,6 +7,8 @@ public class BeerColorController : MonoBehaviour
 	public BeerInfo beerInfo;
 	[SerializeField] Renderer renderer;
 
+	
+
 	Dictionary<int, string> srmToColor = new Dictionary<int, string>() 
 	{{1, "ffff45"},
 		{ 2, "ffff45"},

@@ -4,12 +4,12 @@
     {
         _Tint("Tint", Color) = (1,1,1,1)
         _MainTex("Texture", 2D) = "white" {}
-        _FillAmount("Fill Amount", Range(-10,10)) = 0.0
+        _FillAmount("Fill Amount", Float) = 0.0
         [HideInInspector] _WobbleX("WobbleX", Range(-1,1)) = 0.0
         [HideInInspector] _WobbleZ("WobbleZ", Range(-1,1)) = 0.0
         _TopColor("Top Color", Color) = (1,1,1,1)
         _FoamColor("Foam Line Color", Color) = (1,1,1,1)
-        _Rim("Foam Line Width", Range(0,0.1)) = 0.0
+        _Rim("Foam Line Width",Float) = 0.0
         _RimColor("Rim Color", Color) = (1,1,1,1)
         _RimPower("Rim Power", Range(0,10)) = 0.0
     }

@@ -15,6 +15,12 @@ public class HandleUIPoint : MonoBehaviour
 	[SerializeField] private Text AlcoholText;
 	[SerializeField] private Text IBUText;
 
+	void OnEnable()
+    {
+        ChangeInfo();
+    }
+
+
 	public void ChangeInfo () {
 		NameText.text = pir.title;
 		StyleText.text = pir.style;

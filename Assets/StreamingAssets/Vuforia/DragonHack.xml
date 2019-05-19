@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Leffe" size="1.000000 1.014063" />
+    <ImageTarget name="Union" size="1.000000 0.978125" />
     <ImageTarget name="UnikatenFinal" size="1.000000 1.006250" />
     <ImageTarget name="tUBORG" size="1.000000 0.759477" />
     <ImageTarget name="StAustell" size="1.000000 1.007812" />

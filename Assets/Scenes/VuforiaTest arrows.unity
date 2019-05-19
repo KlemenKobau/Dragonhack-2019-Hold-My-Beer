@@ -191,7 +191,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: f4f26adc25079864aaa05f85cf243fca,
+      objectReference: {fileID: 11400000, guid: 50e99c531e28f1649938899bb8d78747,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -454,7 +454,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: a0ae54541af9bf1448719c7b3530ecee,
+      objectReference: {fileID: 11400000, guid: c4daf5fb8c0c5be4e87134d3dd9eccd4,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
@@ -980,6 +980,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -3.29
       objectReference: {fileID: 0}
+    - target: {fileID: 635547911207379271, guid: af6bb6fc7d8f3874f9829277cdc5b413,
+        type: 3}
+      propertyPath: beerInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: d5de5c8386109694781c72bacee672c3,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}
 --- !u!4 &1050151419 stripped
@@ -1744,6 +1750,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2056815986960073179, guid: c6caab4c1e11d99259d3a73833abbf9f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: c760c22ce90d3064e859f7caa9df4667,
+        type: 3}
     - target: {fileID: 9152753744430905720, guid: c6caab4c1e11d99259d3a73833abbf9f,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1754,11 +1766,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 4000
       objectReference: {fileID: 0}
-    - target: {fileID: 2056815986960073179, guid: c6caab4c1e11d99259d3a73833abbf9f,
+    - target: {fileID: 6594726237880744803, guid: c6caab4c1e11d99259d3a73833abbf9f,
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: c760c22ce90d3064e859f7caa9df4667,
+      objectReference: {fileID: 12800000, guid: b82c5002a13ed2d4cb96bbf7cee6bc27,
         type: 3}
     - target: {fileID: 8215197387282076891, guid: c6caab4c1e11d99259d3a73833abbf9f,
         type: 3}
@@ -1773,12 +1785,6 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: b82c5002a13ed2d4cb96bbf7cee6bc27,
         type: 3}
     - target: {fileID: 8400786983472166530, guid: c6caab4c1e11d99259d3a73833abbf9f,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: b82c5002a13ed2d4cb96bbf7cee6bc27,
-        type: 3}
-    - target: {fileID: 6594726237880744803, guid: c6caab4c1e11d99259d3a73833abbf9f,
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
@@ -2175,7 +2181,7 @@ PrefabInstance:
         type: 3}
       propertyPath: beerInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 48f2c4b3ee2ca14418ad3a7afd3b95ea,
+      objectReference: {fileID: 11400000, guid: 126a74d6a7b3f21418bdeec7abe3bee1,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6bb6fc7d8f3874f9829277cdc5b413, type: 3}

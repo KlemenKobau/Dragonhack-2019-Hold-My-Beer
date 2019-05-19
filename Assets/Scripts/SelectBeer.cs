@@ -6,7 +6,7 @@ using UnityEditor;
 public class SelectBeer : MonoBehaviour
 {
 	[SerializeField] GameObject myPrefab;
-	private List<BeerColorController> beerUnderUniversal;
+	private List<BeerColorController> beerUnderUniversal = new List<BeerColorController>();
 	[SerializeField] HandleUIPoint handleUIPoint;
 
 	private int ind = 0;
@@ -20,9 +20,9 @@ public class SelectBeer : MonoBehaviour
 			string assetPath = "Assets/Json/Parsed/Beer" + i + ".asset";
 			BeerInfo beerInfo = AssetDatabase.LoadAssetAtPath<BeerInfo>(assetPath);
 
-			GameObject newPrefab = Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-			newPrefab.GetComponent<BeerColorController>().beerInfo = beerInfo;
-			beerUnderUniversal.Add(newPrefab.GetComponent<BeerColorController>());
+			//GameObject newPrefab = Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+			myPrefab.GetComponent<BeerColorController>().beerInfo = beerInfo;
+			beerUnderUniversal.Add(myPrefab.GetComponent<BeerColorController>());
 		}
 
 		foreach (BeerColorController beer in beerUnderUniversal) {

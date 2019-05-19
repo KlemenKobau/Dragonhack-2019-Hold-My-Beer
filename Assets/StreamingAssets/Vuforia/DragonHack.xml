@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="unikaten_1" size="1.000000 1.012876" />
-    <ImageTarget name="pir2_1" size="1.000000 1.000000" />
-    <ImageTarget name="VuforiaTest_1" size="1.000000 1.589844" />
+    <ImageTarget name="UnikatenFinal" size="1.000000 1.006250" />
+    <ImageTarget name="tUBORG" size="1.000000 0.759477" />
+    <ImageTarget name="StAustell" size="1.000000 1.007812" />
+    <ImageTarget name="ESB" size="1.000000 1.000000" />
+    <ImageTarget name="Andechs" size="1.000000 1.001562" />
+    <ImageTarget name="kozel_1" size="1.000000 1.119141" />
   </Tracking>
 </QCARConfig>
